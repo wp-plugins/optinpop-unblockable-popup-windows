@@ -54,7 +54,7 @@ OptinPop has been carefully optimized to ensure every single one of your message
 
 == Installation ==
 
-1. Upload `optinpop.php` to the `/wp-content/plugins/` directory
+1. Upload `optinpop.php` and `greybox` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Then go to "OptinPop Settings" and enter the details of your Popup window.
 
@@ -86,8 +86,7 @@ Yes, only this free version can be given away. We have a paid version called Opt
 
 == Screenshots ==
 
-`/tags/2.1/optinpop.gif`
-Once you have OptinPop installed configuration is simple. In step 1 you have the option to register the plugin in exchange for free optin form templates and other listbuilding bonuses. In step 2 enter the url of the web page you'd like to display in your popup window, then configure the other details and finaly press the update other options button and you're all set.
+1. Once you have OptinPop installed configuration is simple. In step 1 you have the option to register the plugin in exchange for free optin form templates and other listbuilding bonuses. In step 2 enter the url of the web page you'd like to display in your popup window, then configure the other details and finaly press the update other options button and you're all set.
 
 == Arbitrary section ==
 
