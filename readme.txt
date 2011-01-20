@@ -1,4 +1,4 @@
-=== Plugin Name ===
+=== OptinPop Unblockable Popup Windows ===
 Contributors: Brian-Terry, Michel Komarov
 Donate link: 
 Tags: popup, popup windows, popup exit, popup entry, pop-up, lightbox, listbuilding 
