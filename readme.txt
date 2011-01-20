@@ -1,18 +1,14 @@
 === Plugin Name ===
 Contributors: Brian-Terry, Michel Komarov
 Donate link: 
-Tags: popup, popup windows, listbuilding, email marketing, popup exit, popup entry
-Requires at least: 2.0.2
+Tags: popup, popup windows, popup exit, popup entry, pop-up, lightbox, listbuilding 
+Requires at least: 3.0 or higher
 Tested up to: 3.0.4
 Stable tag: 4.0
 
-Easily create unblockable popup windows that can display the content of any web page you choose.
+Easily create unblockable, dynamic and fully configurable popups that can display any web page you choose within a lightbox popup window.
 
 == Description ==
-
-Watch this video for details on how to install and configure OptinPop...
-
-<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/p4yCKiey6fM?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/p4yCKiey6fM?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object> 
 
 **Here's what's possible with OptinPop 4.0...**
 
@@ -31,35 +27,39 @@ Give people a few seconds to read your blog before giving them the option to sub
 **Lightbox effect:** 
 Use the lightbox background shading effect to focus your visitors attention.
 
+**OptinPop is fully compatible with every autoresonder service:** 
+No need to copy any code into the plugin, just enter the url to the page where you've added your optin form.
+
+**There's no CSS code to mess with** 
+OptinPop will not effect your blog themes CSS in any way.
+
 **Nothing comes close to OptinPop...**
 
 There's no denying popup windows have been around for almost as long as the Internet.
-
-When misused visitors don't like them, when used correctly they flat out work!
 
 The biggest problem up until now is it's always been difficult to get popup windows to work correctly with WordPress blogs.
 
 We created OptinPop after spending countless hours trying to get popup windows to work my blog that were created by desktop popup creator applications.
 
-What OptinPop gives you is the ability to leverage the huge popularity of blogs into massive subscriber lists.
+What OptinPop gives you is the ability to leverage the huge popularity of blogs into massive subscriber lists and more blog traffic.
 
-We guarantee that nothing can block your message - It's utterly unstoppable by any popup blocker or website browser...
-
-This software has been specifically designed to use the latest web technology to get around the popup window blocking provided by the Google and Yahoo Toolbars.
-
-The end result is your message gets delivered to 100% of your blog visitors, 100% of the time. Each time your popup window is shown to your visitors it's working to build and grow your subscriber list.
+We guarantee that nothing can block your message - It's totally unstoppable by any popup blocker or website browser...
 
 **Totally traffic friendly...**
 
-OptinPop has been carefully optimized to ensure every single one of your messages gets through. By adding some additional power features we've made this WordPress plug-in a real "must have" in your blog marketing arsenal.
+OptinPop has been carefully optimized to ensure every single one of your messages gets through. By adding some additional power features we've made this WordPress plug-in a real "must have" in your blog marketing toolkit.
+
+**[Click here for more information and a demo of OptinPop](http://bigsellingoptins.com "Turn Your WordPress Blog Traffic Into Big Selling Subscriber Lists")**
 
 == Installation ==
 
-1. Unzip the file called "optinpop4.0.zip"
-3. This should then give you a folder called "optinpop". Upload this to the `/wp-content/plugins/` directory
-4. Activate the plugin through the 'Plugins' menu in WordPress
-5. Register your copy of the plugin to unlock it and get free listbuilding popup window templates and other bonuses
-5. Then enter the url of the web page you would like to show within your popup window and change the other settings if needed. You can show any page to any website within your popup window.
+You can install the plugin directly through your WordPress dashboard or click on the download button opposite.
+
+1. Unzip the file called "optinpop-unblockable-popup-windows.4.0.zip"
+2. This should then give you a folder called "optinpop". Upload this to the `/wp-content/plugins/` directory
+3. Activate the plugin through the 'Plugins' menu in WordPress
+4. Register your copy of the plugin to unlock it and get free listbuilding popup window templates and other bonuses
+5. Then enter the url of the web page you would like to show within your popup window and change the other settings if needed. You can show the page for any website within your popup window.
 
 == Frequently Asked Questions ==
 
@@ -77,11 +77,11 @@ Just go to your plugins folder on your web server where you have WordPress insta
 
 = Can I give OptinPop away to others? =
 
-Yes, only this free version can be given away. 
+Yes, only the free version can be given away. If you  [join our affiliate program](http://bigsellingoptins.com/affiliates/ "Give Away OptinPop") we'll pay you 50% commissions when anyone upgrades to OptinPop Advanced from the free version you give them. 
 
 = Do you have an Advanced version of the plugin? =
 
-Yes, we have an version called OptinPop Advanced 4.0 that is available from [this page here](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers"). It has many more features that give you precise control over how and where your popup windows appear.
+Yes, we have an version called [OptinPop Advanced 4.0](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers") that is available from [this page here](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers"). It has many more features that give you precise control over how and where your popup windows appear.
 
 = The Advanced version includes: = 
 
@@ -103,7 +103,7 @@ Yes, we have an version called OptinPop Advanced 4.0 that is available from [thi
 
 1. Once you have OptinPop installed configuration is simple. In step 1 you have the option to register the plugin in exchange for free optin form templates and other listbuilding bonuses. In step 2 enter the url of the web page you'd like to display in your popup window, then configure the other details and finally press the update other options button and you're all set.
 
-== Arbitrary section ==
+== What Else Is Possible With OptinPop? ==
 
 **Transform any WordPress blog into a listbuilding super tornado...**
 This incredibly easy to use plug-in puts your listbuilding on overdrive within 10 minutes of installing it.
