@@ -8,7 +8,7 @@ Revision Date: August 14, 2010
 Tested up to: WP 3.0.1
 Author: Brian Terry, Michel Komarov
 Author URI: http://BigSellingOptins.com
-Text Domain: optinpop
+Text Domain: OptinPop Unblockable Popup Windows
 
 License: Artistic License 2.0
 
