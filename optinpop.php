@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: OptinPop Unblockable Popup Windows
+Plugin Name: OptinPop
 Plugin URI: http://BigSellingOptins.com/Plugin
 Description: Easily create unblockable popup windows that can display the content of any web page you choose. You can tune the appearance of your pop-up window and other parameters on the OptinPop Settings page within the Plugins menu. Created by <a href="http://BigSellingOptins.com/Plugin">BigSellingOptins.com</a> and <a href="http://iCoder.com">iCoder.com</a>.
 Version: 4.0

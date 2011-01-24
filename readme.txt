@@ -1,4 +1,4 @@
-=== OptinPop Unblockable Popup Windows ===
+=== OptinPop ===
 Contributors: Brian-Terry, Michel Komarov
 Donate link: 
 Tags: popup, popup windows, popup exit, popup entry, pop-up, lightbox, listbuilding 
