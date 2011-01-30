@@ -4,13 +4,13 @@ Donate link:
 Tags: popup, popup windows, popup exit, popup entry, pop-up, lightbox, listbuilding 
 Requires at least: 3.0 or higher
 Tested up to: 3.0.4
-Stable tag: 4.0
+Stable tag: 4.1
 
 Easily create unblockable, dynamic and fully configurable popups that can display any web page you choose within a lightbox popup window.
 
 == Description ==
 
-**Here's what's possible with OptinPop 4.0...**
+**Here's what's possible with OptinPop 4.1...**
 
 **Add any content to your popup window:** 
 Just type in the url of the page you'd like to show.
@@ -55,8 +55,8 @@ OptinPop has been carefully optimized to ensure every single one of your message
 
 You can install the plugin directly through your WordPress dashboard or click on the download button opposite.
 
-1. Unzip the file called "optinpop-unblockable-popup-windows.4.0.zip"
-2. This should then give you a folder called "optinpop". Upload this to the `/wp-content/plugins/` directory
+1. Unzip the file called "optinpop-unblockable-popup-windows.4.1.zip"
+2. This should then give you a folder called "optinpop-unblockable-popup-windows". Upload this to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Register your copy of the plugin to unlock it and get free listbuilding popup window templates and other bonuses
 5. Then enter the url of the web page you would like to show within your popup window and change the other settings if needed. You can show the page for any website within your popup window.
@@ -73,7 +73,7 @@ No, the popup windows OptinPop and OptinPop Advanced create cannot be blocked.
 
 = How do I uninstall OptinPop? =
 
-Just go to your plugins folder on your web server where you have WordPress installed then delete the folder called "optinpop".
+Just go to your plugins folder on your web server where you have WordPress installed then delete the folder called "optinpop-unblockable-popup-windows" or "optinpop".
 
 = Can I give OptinPop away to others? =
 
@@ -81,7 +81,7 @@ Yes, only the free version can be given away. If you  [join our affiliate progra
 
 = Do you have an Advanced version of the plugin? =
 
-Yes, we have an version called [OptinPop Advanced 4.0](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers") that is available from [this page here](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers"). It has many more features that give you precise control over how and where your popup windows appear.
+Yes, we have an version called [OptinPop Advanced 4.1](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers") that is available from [this page here](http://bigsellingoptins.com/optinpop-advanced/ "Turn Your Blog Traffic Into Red Hot Subscribers"). It has many more features that give you precise control over how and where your popup windows appear.
 
 = The Advanced version includes: = 
 
