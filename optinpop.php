@@ -3,18 +3,17 @@
 Plugin Name: OptinPop
 Plugin URI: http://BigSellingOptins.com/Plugin
 Description: Easily create unblockable popup windows that can display the content of any web page you choose. You can tune the appearance of your pop-up window and other parameters on the OptinPop Settings page within the Plugins menu. Created by <a href="http://BigSellingOptins.com/Plugin">BigSellingOptins.com</a> and <a href="http://iCoder.com">iCoder.com</a>.
-Version: 4.0
-Revision Date: August 14, 2010
-Tested up to: WP 3.0.1
+Version: 4.1
+Revision Date: January 28, 2011
+Tested up to: WP 3.0.4
 Author: Brian Terry, Michel Komarov
 Author URI: http://BigSellingOptins.com
-Text Domain: OptinPop Unblockable Popup Windows
 
 License: Artistic License 2.0
 
 OptinPop Plug-in is released under
 Artistic License 2.0
-Copyright (c) 2008-2010, ReactorPublishing.com and iCoder.com 
+Copyright (c) 2008-2011, ReactorPublishing.com and iCoder.com 
 
 This is the Standard Version Package.
 
@@ -160,7 +159,8 @@ $suffix = defined('SCRIPT_DEBUG') && SCRIPT_DEBUG ? '': '.pack';
 wp_enqueue_script('fancybox', '/wp-content/plugins/optinpop/fancybox/jquery.fancybox-1.3.1'.$suffix.'.js', array('jquery'), '1.3.1');
 wp_enqueue_style( 'fancybox', '/wp-content/plugins/optinpop/fancybox/jquery.fancybox-1.3.1.css', false, '1.3.1');
 
-add_action('wp_footer', 'iOptinPop_box');
+add_action('wp_head', 'iOptinPop_FancyIssueCSS');
+add_action('wp_head', 'iOptinPop_box');
 function iOptinPop_box() {
 	global $iOptinPop_url;
 	$SITECOOKIEPATH = '/';
@@ -194,6 +194,7 @@ SHOW_ON_EXIT;
 		$SHOW = 'setTimeout("iOptinPopBox_show();", '.(1000 * intval(get_option('iOptinPop_box_delay'))).');';
 	}
 
+	$wpurl = get_bloginfo('wpurl');
 	if (trim($iOptinPop_url)
 	&& (!isset($_COOKIE['iOptinPopBox'])
 	|| time() - intval($_COOKIE['iOptinPopBox']) > $box_showing)) {
@@ -201,6 +202,13 @@ echo <<<FANCY_BOX
 <script type="text/javascript">
 <!--//
 function iOptinPopBox_show() {
+	if ('function' == typeof jQuery.fancybox) iOptinPopBox_showbox();
+	else {
+		jQuery('#fancybox-wrap,#fancybox-tmp,#fancybox-loading,#fancybox-overlay,#fancybox-outer').remove();
+		jQuery.getScript('$wpurl/wp-content/plugins/optinpop/fancybox/jquery.fancybox-1.3.1.js', iOptinPopBox_showbox);
+	}
+}
+function iOptinPopBox_showbox() {
 	document.cookie="iOptinPopBox=$box_time; path=$SITECOOKIEPATH; expires=$cookie_expires;";
 	jQuery.fancybox('$iOptinPop_url', {
 		'width'     : $box_width,
@@ -227,7 +235,6 @@ FANCY_BOX;
 	} // if (trim($iOptinPop_url)... && SHOW
 } // function iOptinPop_box()
 
-add_action('wp_head', 'iOptinPop_FancyIssueCSS');
 function iOptinPop_FancyIssueCSS() {
 $dir = plugin_dir_url( __FILE__ );
 echo <<<FancyIssueCSS
@@ -468,7 +475,7 @@ return <<<WINDOW_DETAILS
 		name="OptinPop_time" value="1" $iOptinPop_box_time_1 />
 		<input type="text" id="OptinPop_time_days" size="3" style="width:3em;"
 		name="OptinPop_time_days" value="$iOptinPop_box_time" />
-		<label for="OptinPop_time_days">Days<label></td></tr>
+		<label for="OptinPop_time_days">Days</label></td></tr>
 <tr><td colspan="3" class="submit" align="right">
 		<input type="submit" name="submit" value="Update options &raquo;" /></td></tr>
 </tbody></table>
